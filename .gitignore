@@ -1,0 +1,22 @@
+# Local editing backups, not part of the published site
+index.backup-*.html
+
+# Darkmon product screenshots are NDA-sensitive and must stay off the public repo.
+# Ignore every PNG in this folder, then keep only the two named files below tracked.
+assets/darkmon/*.png
+!assets/darkmon/misp-logo.png
+!assets/darkmon/cortex-marketplace.png
+
+# Stale or rejected app screenshots, not used on the public site
+assets/apps/b2b-pos.png
+assets/apps/markaz-login.png
+assets/apps/predictions.png
+assets/apps/trading-desk.png
+assets/apps/tvplayer.png
+assets/apps/tvplayer-concept.png
+
+# Rejected v1 mock
+assets/gen/trading-amber.jpg
+
+# Local design mock sources, not site content
+assets/mocks/
